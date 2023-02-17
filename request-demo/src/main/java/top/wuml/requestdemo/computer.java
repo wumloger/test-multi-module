@@ -19,7 +19,7 @@ public class computer extends HttpServlet {
         req.setCharacterEncoding("utf-8");
         String name = req.getParameter("name");
         System.out.println(name);
-
+        System.out.println("hello");
         resp.setContentType("text/html");
         resp.setCharacterEncoding("utf-8");
 
