@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="resopnce-demo" />
+        <module name="javaweb-demo" />
+        <module name="request-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javaweb-demo" target="1.8" />
+      <module name="request-demo" target="1.8" />
+      <module name="resopnce-demo" target="1.8" />
+      <module name="test-multi-module" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
