@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="resopnce-demo" />
+        <module name="overall" />
         <module name="javaweb-demo" />
         <module name="request-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="javaweb-demo" target="1.8" />
+      <module name="overall" target="1.8" />
       <module name="request-demo" target="1.8" />
       <module name="resopnce-demo" target="1.8" />
       <module name="test-multi-module" target="1.8" />

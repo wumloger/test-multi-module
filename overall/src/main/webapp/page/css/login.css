@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 637px;
+  background: center no-repeat url("../img/bgc.png");
+  padding-top: 300px;
+}
+.login {
+  height: 320px;
+  width: 480px;
+  background-color: #f3f4ef;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.change {
+  width: 100%;
+  height: 55px;
+  text-align: center;
+}
+.change div {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 67px;
+  width: 140px;
+  border-bottom: 1px solid #dbdbdb;
+  color: #dbdbdb;
+}
+.register {
+  margin-right: 7px;
+}
+.login_by_password {
+  margin-left: 7px;
+}
+.green {
+  color: #5e9c87 !important;
+  border-bottom: 1px solid #5e9c87 !important;
+}
+#account,
+#password {
+  display: block;
+  width: 330px;
+  height: 36px;
+  border-radius: 1px;
+  border: 1px solid #dbdbdb;
+  margin: 20px auto;
+}
+.submit {
+  display: block !important;
+  margin: 0 auto;
+  width: 330px;
+}
+form {
+  height: 140px;
+  position: relative;
+  top: 20px;
+}
+.text {
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
+  font-size: smaller;
+  color: #acacab;
+  min-height: fit-content;
+}
+.icons {
+  height: fit-content;
+  text-align: center;
+  margin-top: 10px;
+}
+.icons div {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: url('../img/icons.png') no-repeat;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+.icons :nth-child(2) {
+  background-position-x: -70px !important;
+}
+.icons :nth-child(3) {
+  background-position-x: -140px !important;
+}
