@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<select id="lv1">
+    <option>请选择</option>
+</select>
+<select id="lv2">
+
+</select>
+
+<script>
+    let lv1 = document.querySelector("#lv1");
+    let lv2 = document.querySelector("#lv2");
+
+    axios.get("jackson",{param : {"param":"lv1"}}).then(function (res){
+        console.log(res.data());
+        let data = res.data();
+        for (let i = 0; i < data.length; i++) {
+            lv1.options.add(data[i]);
+        }
+    });
+
+</script>
+</body>
+</html>

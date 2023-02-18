@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ajax/ajax.iml" filepath="$PROJECT_DIR$/ajax/ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-demo/javaweb-demo.iml" filepath="$PROJECT_DIR$/javaweb-demo/javaweb-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/overall/overall.iml" filepath="$PROJECT_DIR$/overall/overall.iml" />
       <module fileurl="file://$PROJECT_DIR$/request-demo/request-demo.iml" filepath="$PROJECT_DIR$/request-demo/request-demo.iml" />

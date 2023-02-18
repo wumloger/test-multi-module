@@ -9,10 +9,12 @@
         <module name="resopnce-demo" />
         <module name="overall" />
         <module name="javaweb-demo" />
+        <module name="ajax" />
         <module name="request-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ajax" target="1.8" />
       <module name="javaweb-demo" target="1.8" />
       <module name="overall" target="1.8" />
       <module name="request-demo" target="1.8" />

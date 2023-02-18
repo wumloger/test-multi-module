@@ -19,6 +19,23 @@ public class UserServiceImpl implements UserService {
             return null;
         }
 
+    }
+
+    @Override
+    public Boolean addUser(User user) {
+        return null;
+    }
+
+    @Override
+    public User findUser(User user) {
+        if (user != null){
+            return userDao.findUser(user);
+        }else{
+            return null;
+        }
+
 
     }
+
+
 }
